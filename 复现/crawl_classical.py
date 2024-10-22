@@ -200,6 +200,13 @@ def main():
     header = {
         "user-agent": "Mozilla/5.0(Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36(KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36"
     }
+    urllist=[]
+    # collections = '经部,史部,子部,集部'
+    # collections = collections.split(',')
+    # from urllib import parse
+    # prefix='https://so.gushiwen.cn/guwen/Default.aspx?p=1&type='
+    # for c in collections:
+    #    urllist.append(prefix+parse.quote(c))
     urllist = [
         'https://so.gushiwen.cn/guwen/Default.aspx?p=1&type=%e7%bb%8f%e9%83%a8',
         'https://so.gushiwen.cn/guwen/Default.aspx?p=1&type=%e5%8f%b2%e9%83%a8',
